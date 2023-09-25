@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" class="logo">Portfolio</a>
+
+            <i class='bx bx-menu' id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#papers">Papers</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello, My name is</h3>
+        <h1>Mubeen Sultana</h1>
+        <h3>And I am an <span>Undergraduate Student </span></h3>
+        <p><span>(B.Sc in Data Science,Maths and Statistics)  </span></p>
+        <div class="social-media">
+            <a href="#"><i class='bx bxl-facebook' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+        </div>
+        <a href="#" class="btn">Download CV</a>
+    </div>
+    <div class="home-img">
+        <img src="home.jpg" alt="">
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="about.jpg" alt="">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Undergraduate Student</h3>
+        <p>I am in my final year of college, where I am majoring in Data Science, Mathematics, and Statistics. I am an enthusiastic, self-motivated, responsible, and hard working individual. I have the ability to operate well both independently and in a collaborative setting. Microsoft Office, Digital Marketing, Python Programming, R Programming, and Machine Learning are my technical skills.</p>
+        <a href="#" class="btn">Read More</a>
+    </div>
+</section>
+
+<section class="projects" id="projects">
+    <h2 class="heading">My <span>Projects</span></h2>
+    <div class="projects-container">
+        <div class="projects-box">
+            <i class='bx bxl-play-store'></i>
+            <h3>Google Play Store-EDA and Predictions</h3>
+            <p>Implemented tools such as Numpy, Pandas, Matplotlib, and Seaborn to perform Exploratory Data Analysis. Generated predictions using the Supervised Machine Learning approach known as the Random Forest model with 90.25% accuracy.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="projects-box">
+            <i class='bx bxs-virus' ></i>
+            <h3>Disease Prediction</h3>
+            <p>Designed a disease prediction website with a focus on women's health with accuracy in consideration. It incorporates diseases like Diabetes, Anemia, Heart Disease, and Bone Mineral Density. Executed a variety of algorithms based on Machine Learning to identify diseases precisely.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="projects-box">
+            <i class='bx bx-brain' ></i>
+            <h3>Mental Health Analysis</h3>
+            <p>Developed a website using HTML, CSS and JavaScript. An initial check on a person's mental health status is provided through a mental health analysis quiz. The main objective is to promote mental well-being and it may serve as a springboard for people to take care of their mental health.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+</section>
+
+<section class="papers" id="papers">
+    <h2 class="heading">Research <span>Papers</span></h2>
+    <div class="papers-container">
+        <div class="papers-box">
+            <i class='bx bx-universal-access'></i>
+            <h3>Walmart Sales Time Series Forecasting Using Machine Learning</h3>
+            <p>The focus of this research is to forecast Walmart's weekly sales. Additionally, a statistical analysis of the weekly sales of 45 Walmart stores is carried out. This study uses Time Series and Machine Learning modals such KNN, Random Forest, and Linear Regression. To identify which modal is most efficient, these modals are evaluated. The highest accuracy, 97.896%, is provided by Random Forest.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="papers-box">
+            <i class='bx bxl-internet-explorer' ></i>
+            <h3>Internet of Things: Role in the Media and Entertainment Industry</h3>
+            <p>The function of IoT in the media and entertainment industries is addressed in this research study. It demonstrates how the current state of trends and technology is changing. It draws attention to the difficulties IoT encounters. This study also demonstrates how advantageous IoT is, and how IoT will influence the industry of media and entertainment in the future.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+    </body>
+</html>
